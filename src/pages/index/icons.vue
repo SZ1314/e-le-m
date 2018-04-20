@@ -9,7 +9,6 @@
           </div>
         </div>
       </swiper-slide>
-      <div class="swiper-pagination"  slot="pagination"></div>
     </swiper>
   </div>
 </template>
@@ -38,11 +37,6 @@ export default {
       })
       return pages
     }
-  },
-  mounted () {
-    setTimeout(() => {
-      console.log(this.pageList)
-    }, 3000)
   }
 }
 </script>

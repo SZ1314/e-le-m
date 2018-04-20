@@ -4,6 +4,7 @@
     <index-search></index-search>
     <index-swiper :list="swiperInfo"></index-swiper>
     <index-icons :list="iconsInfo"></index-icons>
+    <index-sights></index-sights>
     <index-footer></index-footer>
   </div>
 </template>
@@ -12,6 +13,7 @@ import IndexHeader from './header'
 import IndexSearch from './search'
 import IndexSwiper from './swiper'
 import IndexIcons from './icons'
+import IndexSights from './sights'
 import IndexFooter from './footer'
 import axios from 'axios'
 export default {
@@ -21,6 +23,7 @@ export default {
     IndexSearch,
     IndexSwiper,
     IndexIcons,
+    IndexSights,
     IndexFooter
   },
   data () {

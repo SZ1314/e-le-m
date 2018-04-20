@@ -1,9 +1,9 @@
 <template>
   <div class="search">
-    <a class="content" href="javascript">
+    <div class="content">
       <span class="iconfont">&#xe673;</span>
       搜索饿了么商家、商品名称
-    </a>
+    </div>
   </div>
 </template>
 <script>
